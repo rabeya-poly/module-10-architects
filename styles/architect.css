@@ -78,6 +78,13 @@ main > section{
     margin:  0 auto;
     
 }
+/* fact style */
+ .fact-card{
+    border:1px solid #FF900E;
+ }
+ .fact-container{
+    display: grid;
+ }
 
 /* banner related style */
 .banner-content{
