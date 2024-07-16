@@ -78,6 +78,27 @@ main > section{
     margin:  0 auto;
     
 }
+/* enjoy and love feature */
+.features{
+    gap: 140px;
+}
+.feature-section-title{
+ border-left: 5px solid #FF900E ;
+ padding: 21px;
+}
+.feature-title, .feature-card{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+   border-radius: 8px;
+}
+
+
 /* fact style */
  .fact-card{
     border: 1px solid #FF900E;
@@ -178,7 +199,7 @@ max-width: 530px;
 }
 
 .sponsor-companies{
-    justify-content:center;
+    justify-items:center;
             gap: 50px;
 }
 
