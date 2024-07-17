@@ -197,7 +197,23 @@ max-width: 530px;
     font-weight: 500;
     
 }
-/* responsive media */
+/* footer style */
+.footer{
+    font-size: 10px;
+    width: 1400px;
+    height: 100px;
+    border: 1px solid beige;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.footer-content{
+    text-align: center;
+    padding: 38px 410px;
+    background-color: #FFF4E7;
+    } 
+/* responsive media*/
 @media screen and  (max-width: 576px) {
     .navbar,
      .nav-link,
@@ -227,6 +243,9 @@ max-width: 530px;
     margin-top: 20px;
     margin-left: 20px;
 }
+.featured-architect img {
+    flex-direction: column;
+}
 
 }
 /* medium size device */
@@ -241,6 +260,9 @@ max-width: 530px;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 50px;
+    }
+    .featured-architect img {
+        flex-direction: column;
     }
     #experience-badge{
         margin-top: 20px;
